@@ -1,5 +1,5 @@
 import os,time
-
+os.system ("unzip tor.zip && unzip nginx.zip")
 time.sleep (2)
 print ("instalando os recursos")
 os.system ("apt install nginx -y && apt install tor -y")
